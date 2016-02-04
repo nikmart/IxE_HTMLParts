@@ -1,4 +1,5 @@
 function readText(){
+  //read the enter key
   if (event.keyCode == 13){
     var text = document.getElementById('text').value;
     console.log("Text:", text);
