@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML Parts</title>
+</head>
+
+<body>
+<h1>Example HTML parts</h1>
+
+Text Input: 
+<input type="text" id="text" onKeyDown="readText()">
+(read the text when you hit 'enter')
+
+<p></p>
+
+Range Slider: 
+<input type="range" id="range" min="0" max="100" onChange="readRange()">
+(read the value from 1 to 100 when you change)
+
+<p></p>
+
+Number Input: 
+<input type="number" id="number" onChange="readNumber()">
+(read number when you change)
+
+<p></p>
+
+Button: 
+<input type="button" id="button" value="Button" onClick="clickButton()">
+(detect button click)
+
+<p></p>
+
+Imgae Button:
+<input type="image" id="image" src="sfe.jpg" onMouseOver="mouseoverImage()">
+(detect mouse over image)
+
+<p></p>
+
+Selection: 
+<select id="select" onChange="readSelect()">
+  <option value="Uno">Uno</option>
+  <option value="Micro">Micro</option>
+  <option value="Mega">Mega</option>
+  <option value="Zero">Zero</option>
+</select>
+(read selection on change)
+
+
+<p></p>
+
+Checkbox:
+<input type="checkbox" id="checkbox" onClick="readCheckbox()">
+(read checkbox value on click)
+
+<p></p>
+
+Radio Button:
+<input type="radio" id="radio" onChange="readRadio()">
+(read radio value on click)
+
+<p></p>
+
+<script src="client.js"></script>
+</body>
+</html>
